@@ -1,37 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Head Hunter</title>
-    <link rel="stylesheet" href="styles/bootstrap-grid.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <script defer src="./js/app.js"></script>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="index.html" class="logo-link">
-                        <img src="./img/logo.svg" alt="Logo">
-                    </a>
-                </div>
-                <div class="col">
-                    <nav class="navigation">
-                        <ul class="navigation__body d-flex">
-                            <li class="navigation__item"><a href="/" class="navigation__link">Главная</a></li>
-                            <li class="navigation__item"><a href="/" class="navigation__link">Вакансии</a></li>
-                            <li class="navigation__item"><a href="/" class="navigation__link">Компании</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col"></div>
-            </div>
-        </div>
-    </header>
-    <main></main>
-    <footer></footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Head Hunter</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles/bootstrap-grid.css" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<script defer src="./js/app.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="row d-flex align-items-center py-4">
+					<div class="col-2 dfsdfsadfsdf">
+						<a href="index.html" class="logo-link">
+							<img src="./img/logo.svg" alt="Logo" />
+						</a>
+					</div>
+					<div class="col d-flex justify-content-center">
+						<nav class="navigation">
+							<ul class="navigation__body d-flex">
+								<li class="navigation__item">
+									<a href="/" class="navigation__link"
+										>Главная</a
+									>
+								</li>
+								<li class="navigation__item">
+									<a href="/" class="navigation__link"
+										>Вакансии</a
+									>
+								</li>
+								<li class="navigation__item">
+									<a href="/" class="navigation__link"
+										>Компании</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-3">
+						<div class="auth d-flex justify-content-end">
+							<a href="" class="auth__sign">Войти</a>
+							<a href="" class="auth__primary">Регистрация</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row pt-5">
+					<div class="col-5">
+						<div class="hero">
+							<h1 class="hero__title">
+								Найдите удаленную <br />работу вашей мечты
+							</h1>
+							<div class="hero__text">
+								Создайте резюме или отправьте отклик на вакансию
+								<br />в компании с мировым именем и работайте
+								<br />по свободному графику
+							</div>
+
+							<!--Под вопросом. Не знаю как реализовать форму-->
+							<div
+								class="
+									hero__form
+									input-group-2
+									d-flex
+									justify-content-between
+								"
+							>
+								<input
+									type="text"
+									class="input-group-2__input btn"
+									placeholder="Начните поиск"
+								/>
+								<button
+									class="
+										input-group-2__search
+										btn-primary btn
+										d-flex
+										align-items-center
+										justify-content-center
+									"
+								>
+									<img src="img/search.svg" alt="search" />
+									<span class="input-group-2__button-text"
+										>Искать вакансии</span
+									>
+								</button>
+							</div>
+
+							<div class="hero__tags tags">
+								<div
+									class="tags__row d-flex align-items-center"
+								>
+									<div class="tags__title">Например:</div>
+									<a href="/" class="tags__column"
+										>Front-end</a
+									>
+									<a href="/" class="tags__column"
+										>Back-end</a
+									>
+									<a href="/" class="tags__column"
+										>Designer</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 offset-1">
+						<img src="img/hero.svg" alt="Hero" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<main></main>
+		<footer></footer>
+	</body>
 </html>
