@@ -10,12 +10,22 @@ body {
 	color: #111238;
 }
 
+a {
+	transition: all 0.4s ease;
+}
+a:hover {
+	color: #1a75e8;
+}
+
 .navigation__body {
 	list-style: none;
 }
 .navigation__item:not(:last-child) {
 	margin-right: 20px;
 }
+.navigation__link {
+}
+
 .navigation__link {
 	font-family: "Fira Sans";
 	font-style: normal;
@@ -119,4 +129,112 @@ a {
 
 .header {
 	background: #f2f3f6;
+}
+
+.catigories {
+	padding-top: 70px;
+}
+
+.catigories__row {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.catigories__item {
+	padding: 35px 55px;
+	background: #f2f3f6;
+	border-radius: 10px;
+
+	max-width: 166px;
+	max-height: 124px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	transition: background-color 0.4s ease;
+}
+.catigories__icon {
+	margin-bottom: 15px;
+}
+.catigories__name {
+	color: #111238;
+}
+
+.catigories__content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.catigories__item:hover {
+	background-color: #1a75e8;
+}
+
+.catigories__item_active {
+	background-color: #1a75e8;
+}
+
+.title {
+	font-family: "Fira Sans";
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.jobs_m {
+	margin-top: 60px;
+}
+.vacancies {
+	display: flex;
+	flex-direction: column;
+}
+.jobs__item {
+	border-radius: 5px;
+	border: 1px solid #f2f3f6;
+	margin-bottom: 0;
+	padding: 30px;
+}
+.jobs__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+.jobs__body {
+	display: flex;
+	align-items: center;
+}
+.jobs__info {
+	margin-right: 46px;
+}
+.jobs__locate {
+	font-family: "Fira Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+}
+.jobs__salary {
+	margin-right: 62px;
+	width: 113px;
+	height: 39px;
+	background: #1a75e8;
+	border-radius: 5px;
+	color: #fff;
+	padding: 9px 25px;
+}
+.jobs__tags {
+	margin-right: 176px;
+}
+
+.jobs__name {
+	font-family: "Fira Sans";
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+.jobs__icon {
+	margin-right: 20px;
+}
+.jobs__title {
+	margin-bottom: 40px;
 }
