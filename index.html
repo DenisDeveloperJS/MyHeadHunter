@@ -16,10 +16,10 @@
 		<script defer src="./js/app.js"></script>
 	</head>
 	<body>
-		<header class="header">
+		<header class="header bg_grey">
 			<div class="container">
 				<div class="row d-flex align-items-center py-4">
-					<div class="col-2 dfsdfsadfsdf">
+					<div class="col-2">
 						<a href="index.html" class="logo-link">
 							<img src="./img/logo.svg" alt="Logo" />
 						</a>
@@ -64,15 +64,14 @@
 								<br />в компании с мировым именем и работайте
 								<br />по свободному графику
 							</div>
-
-							<!--Под вопросом. Не знаю как реализовать форму-->
-							<div
+							<form
 								class="
 									hero__form
 									input-group-2
 									d-flex
 									justify-content-between
 								"
+                                action="/"
 							>
 								<input
 									type="text"
@@ -93,7 +92,7 @@
 										>Искать вакансии</span
 									>
 								</button>
-							</div>
+							</form>
 
 							<div class="hero__tags tags">
 								<div
@@ -209,7 +208,7 @@
 				<div class="jobs container jobs_m">
 					<h2 class="jobs__title title">Свежие вакансии</h2>
 					<div class="jobs__vacancies vacancies">
-						<div class="jobs__item">
+						<article class="jobs__item">
 							<div class="jobs__body">
 								<img src="img/logo-company.png" alt="logo company" class="jobs__icon" />
 								<div class="jobs__info">
@@ -237,8 +236,8 @@
                                 </div>
                                 <a href="/" class="jobs__more offset-1">Подробнее →</a>
 							</div>
-						</div>
-						<div class="jobs__item">
+						</article>
+						<article class="jobs__item">
 							<div class="jobs__body">
 								<img src="img/logo-company.png" alt="logo comapny" class="jobs__icon" />
 								<div class="jobs__info">
@@ -266,8 +265,8 @@
                                 </div>
                                 <a href="/" class="jobs__more offset-1">Подробнее →</a>
 							</div>
-						</div>
-						<div class="jobs__item">
+						</article>
+						<article class="jobs__item">
 							<div class="jobs__body">
 								<img src="img/logo-company.png" alt="logo company" class="jobs__icon" />
 								<div class="jobs__info">
@@ -295,8 +294,8 @@
                                 </div>
                                 <a href="/" class="jobs__more offset-1">Подробнее →</a>
 							</div>
-						</div>
-						<div class="jobs__item">
+						</article>
+						<article class="jobs__item">
 							<div class="jobs__body">
 								<img src="img/logo-company.png" alt="logo company" class="jobs__icon" />
 								<div class="jobs__info">
@@ -324,10 +323,54 @@
                                 </div>
                                 <a href="/" class="jobs__more offset-1">Подробнее →</a>
 							</div>
-						</div>
+						</article>
+                        <button class="jobs__more-jobs btn btn-primary justify-content-center">Больше вакансий</button>
 					</div>
 				</div>
 			</section>
+            <section>
+                <div class="bg_grey">
+                    <div class="container">
+                        <div class="malling py-5 d-flex flex-column align-items-center">
+                            <h2 class="malling__title">Подпишитесь на рассылку <br> с новыми вакансиями</h2>
+                            <div class="malling__text">Мы отправляем по одному письму в неделю <br> с подходящими вам вакансиями</div>
+    
+                            <div class="mallling__form">
+                                <form
+                                class="
+                                    hero__form
+                                    input-group-2
+                                    d-flex
+                                    justify-content-between
+                                "
+                                action="/"
+                            >
+                                <input
+                                    type="text"
+                                    class="input-group-2__input btn"
+                                    placeholder="E-mail"
+                                />
+                                <button
+                                    class="
+                                        input-group-2__search
+                                        btn-primary btn
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                    "
+                                >
+                                    <img src="img/mail.svg" alt="search" />
+                                    <span class="input-group-2__button-text"
+                                        >Подписаться</span
+                                    >
+                                </button>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
 		</main>
 		<footer></footer>
 	</body>

@@ -127,7 +127,7 @@ a {
 	margin-right: 10px;
 }
 
-.header {
+.bg_grey {
 	background: #f2f3f6;
 }
 
@@ -185,6 +185,7 @@ a {
 
 .jobs_m {
 	margin-top: 60px;
+	margin-bottom: 75px;
 }
 .vacancies {
 	display: flex;
@@ -215,8 +216,8 @@ a {
 }
 .jobs__salary {
 	margin-right: 62px;
-	width: 113px;
-	height: 39px;
+	min-width: 113px;
+	min-height: 39px;
 	background: #1a75e8;
 	border-radius: 5px;
 	color: #fff;
@@ -231,10 +232,53 @@ a {
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 19px;
+	margin-bottom: 10px;
 }
 .jobs__icon {
 	margin-right: 20px;
 }
 .jobs__title {
 	margin-bottom: 40px;
+}
+
+.jobs__more-jobs {
+	padding: 15px 30px;
+
+	min-width: 193px;
+	min-height: 49px;
+	background: #1a75e8;
+	border-radius: 5px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.mallling__form {
+	max-width: 447px;
+	max-height: 70px;
+}
+.malling {
+	padding: 90px 349px;
+	margin: 0 auto;
+}
+.malling__title {
+	margin-bottom: 20px;
+
+	font-family: "Fira Sans";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+}
+.malling__text {
+	margin-bottom: 40px;
+
+	font-family: "Fira Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+}
+.mallling__form {
 }
