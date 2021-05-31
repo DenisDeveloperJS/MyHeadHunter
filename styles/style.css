@@ -11,6 +11,7 @@ body {
 }
 
 a {
+	color: #111238;
 	transition: all 0.4s ease;
 }
 a:hover {
@@ -129,6 +130,7 @@ a {
 
 .bg_grey {
 	background: #f2f3f6;
+	width: 100%;
 }
 
 .catigories {
@@ -281,4 +283,24 @@ a {
 	line-height: 140%;
 }
 .mallling__form {
+}
+
+.footer___menu {
+	gap: 10px;
+}
+
+.footer__title {
+	margin-bottom: 15px;
+}
+
+.footer-title {
+	font-family: "Fira Sans";
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.footer {
+	margin-top: 70px;
+	margin-bottom: 110px;
 }
